@@ -107,7 +107,7 @@ All endpoints include realistic latency (300-500ms) and proper error handling.
 
 ## 🎯 Acceptance Criteria
 
-### Functionality (4 pts)
+### Functionality
 - ✅ KPI cards show correct values from `/dashboard/metrics`
 - ✅ Insights panel loads and filters by range/favourited
 - ✅ Time-series show latest values (bonus: sparklines)
@@ -115,19 +115,19 @@ All endpoints include realistic latency (300-500ms) and proper error handling.
 - ✅ Shortcuts show summaries from respective endpoints
 - ✅ Error handling with retry capability
 
-### Code Quality (3 pts)
+### Code Quality
 - ✅ Clean component decomposition
 - ✅ Proper state management (React Query + Zustand)
 - ✅ TypeScript usage with proper typing
 - ✅ Clear naming conventions
 
-### UX & Accessibility (2 pts)
+### UX & Accessibility
 - ✅ Loading states for all data fetching
 - ✅ Error states with user-friendly messages
 - ✅ Empty states when no data
 - ✅ Keyboard navigation support
 
-### Polish (1 pt)
+### Polish
 - ✅ Status badges with appropriate colors
 - ✅ Relative timestamps
 - ✅ Trend indicators
@@ -206,18 +206,3 @@ npm start              # Start production server
 - `Badge` - Status indicators with color variants
 - More components can be added as needed
 
-## 📝 Submission Notes
-
-Focus on:
-1. **Functionality first** - get the data loading and displaying
-2. **Error handling** - show loading/error states
-3. **Code organization** - clean, readable components
-4. **User experience** - intuitive interactions
-
-Time management:
-- 0-15 min: Set up data fetching and basic layout
-- 15-30 min: Implement insights panel with filtering
-- 30-40 min: Add shortcuts and polish UX states
-- 40-45 min: Final testing and cleanup
-
-Good luck! 🍀
