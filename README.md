@@ -18,34 +18,7 @@ This will start:
 - **Frontend**: http://localhost:5173 (Vite dev server with HMR)
 - **Backend**: http://localhost:3001 (Express API with nodemon auto-reload)
 
-## 📋 Exercise Overview
 
-**Time Limit**: 45 minutes  
-**Goal**: Build a dashboard cover page for Jarvio's workflow automation platform
-
-### What to Build
-
-1. **KPI Cards** (top row)
-   - Workflows run (last 24h)
-   - Tasks outstanding
-   - Tasks due (today + overdue total)
-   - Tasks finished (last 24h)
-
-2. **Insights Panel**
-   - List insights (most-recent first)
-   - Time-series: show latest value + tiny sparkline
-   - Status/event: show status badge + message + timestamp
-   - Toggle "Favourited only"
-   - Range selector: 24h / 7d / 30d
-
-3. **Shortcuts Row**
-   - Cards for Workflows, Tasks, Data, Agent
-   - Show summary counts/status
-
-4. **Good UX States**
-   - Loading states
-   - Error states (test with `?range=error`)
-   - Empty states
 
 ## 🛠 Technology Stack
 
