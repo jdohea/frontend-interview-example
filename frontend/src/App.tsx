@@ -23,8 +23,9 @@ export default function App() {
     <main className="container mx-auto p-6 max-w-7xl">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">
-          [JARVIO LOGO] Dashboard
+        <h1 className="text-3xl font-bold tracking-tight flex items-center gap-3">
+          <img src="/img/jarvio-blue.svg" alt="Jarvio" className="h-10 w-auto" />
+          Dashboard
         </h1>
         <p className="text-muted-foreground mt-2">
           Workflow automation platform overview
